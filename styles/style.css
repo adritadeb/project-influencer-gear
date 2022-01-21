@@ -1,0 +1,21 @@
+/*-----------------------
+-- first-section style --
+------------------------- */
+.flex-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 125px;
+}
+.first-heading{
+    font-size: 52px;
+    font-weight: 700;
+}
+.booking-btn{
+    background-color: #E02C6D;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+}
