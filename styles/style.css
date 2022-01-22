@@ -1,6 +1,12 @@
+/* -----google fonts----- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@700&display=swap');
+
 /*-----------------------
 -- first-section style --
 ------------------------- */
+main{
+    font-family:  'Poppins', sans-serif;
+}
 .flex-container{
     display: flex;
 }
@@ -10,7 +16,6 @@
 }
 .first-heading{
     font-size: 52px;
-    font-weight: 700;
 }
 .booking-btn{
     background-color: #E02C6D;
@@ -18,4 +23,28 @@
     text-decoration: none;
     color: white;
     padding: 10px 24px;
+}
+/*-----------------------
+-- second-section style --
+------------------------- */
+
+#collection-header{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 100px 196px;
+    background-color: #AAAAAA;
+}
+.collection{
+    background-color: #FFFFFF;
+}
+.collection img{
+    width: 300px;
+    height: 256px;
+}
+.fas{
+    color: orange;
 }
